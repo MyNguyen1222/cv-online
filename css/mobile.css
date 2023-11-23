@@ -1,0 +1,116 @@
+/* CSS for mobile screen */
+
+@media(max-width: 767px) {
+
+    html {
+        /* font-size = 12px */
+        font-size: 75%;
+    }
+ /* BANNER */
+    .banner-img {
+       height: 75rem;
+    }
+    .banner h1 {
+        font-size: 3.6rem;
+        padding-bottom: 3rem;
+    }
+    
+
+ /* NAVBAR */
+    #nav-bar .container {
+        height: 14rem;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+        justify-content: start;
+        align-items: start;
+        padding-left: 5rem;
+    }
+    #nav-bar .container a {
+        border: none;
+    }
+    .section-title {
+        padding-left: 3rem;
+    }
+    .name {
+        display: none;
+    }
+
+ /* TARGET - PERSONAL_INFORMATION */
+    #about .container {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+ /* JOB_INFORMATION */
+    #job-info .container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto auto auto auto;
+        justify-content: center;   
+    }
+ /* CERTIFICATE - PRIZE */
+    .certi-prize {
+        flex-direction: column;
+    }
+    .certi-prize-content h4 {
+        font-size: 1.5rem;
+    }
+    .certi-prize-content li {
+        font-size: 1.5rem;
+    }
+    .certi-img {
+        width: 100%;
+    }
+    #certificate .container {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+    }
+    .border-left {
+        border-left:0;
+        padding-left: 0; 
+    }
+    .border-top {
+        padding-left: 1rem;
+    }
+
+ /* PROJECT */
+    #project .wrapper {
+        display: grid;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: auto auto auto;
+        justify-content: center;
+        padding: 0 1rem;
+        row-gap: 2rem;
+    }
+
+    .timeline {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 0.5rem;
+    }
+    .layout {
+        display: flex;
+        flex-direction: column;
+    }
+    .training_center, .std_level {
+        padding: 0;
+        gap: 0.5rem;
+    }
+ /* FOOTER */
+    #footer .container p {
+        display: none;
+    }
+    #footer .container {
+        font-size: 3rem;
+        column-gap: 2rem;
+        background-color: #f7f7f7;
+        margin-top: 2rem;
+        padding: 1rem;
+    }
+}

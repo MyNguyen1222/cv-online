@@ -1,0 +1,118 @@
+/* CSS for mobile tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
+    html {
+        /* 1rem = 16px;  font-size (tablet) = 10px */ 
+        font-size: 62.5%;
+    }   
+
+    .container {
+        max-width: 102.4rem;
+    }
+    .banner-img {
+        width: 100%;
+        filter: brightness(50%);
+    }
+    .banner {
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        top: 10%;
+        color: white;
+        position: absolute;
+    }
+    .banner h1 {
+        padding-bottom: 1rem;
+    }
+    #nav-bar .container {
+        grid-template-columns: 15% 15% 20% 15% 15%;
+    }
+    .name {
+        display: none;
+    }
+
+
+    .container_decor h1 {
+        font-size: 2rem;
+    }
+
+    .tablet-layout-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .tablet-layout-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #job-info .container {
+        display: grid;
+        grid-template-columns: 35% 35%;
+        justify-content: center;
+        column-gap: 2rem;
+    }
+
+    .icon_adjust {
+        margin: 0 3rem 5rem 0;
+        font-size: 4rem;
+    }
+
+    /* KINH NGHIỆM-KỸ NĂNG-NGÔN NGỮ
+    HOẠT ĐỘNG-HỌC VẤN-SỞ THÍCH */
+    .liking_content {
+        display: grid;
+        grid-template-columns: 20% 20% 20%;
+    }
+
+
+    /* CHỨNG CHỈ - GIẢI THƯỞNG */
+
+    .certi-prize {
+        flex-direction: column; 
+
+        
+    }
+    #certificate .container {
+        grid-template-columns: 40% 40%; 
+        column-gap: 0;
+        row-gap: 0;
+    }
+    .certi-img {
+        width: 100%;
+    }
+
+    .certi-prize-content h4 {
+        font-size: 1rem;
+    }
+    .padding-right {
+        padding-right: 1.5rem;
+    }
+    .border-left {
+        padding-left: 1.5rem;
+    }
+    .certi-prize {
+        padding-bottom: 1rem; 
+    }
+    .border-bottom {
+        border-bottom: 1px solid #e9ce34;
+    }
+    .border-top {
+        padding-right: 1rem;
+    }
+    /* <!-- DỰ ÁN --> */
+    .layout {
+        display: flex;
+        flex-direction: column;
+    }
+    .training_center p {
+        font-size: 1rem;
+    }
+    .timeline {
+        height: 5rem;
+        display: flex;
+        flex-direction: row;
+    }
+    /* FOOTER */
+    #footer .container {
+        font-size: 2rem;
+    }
+}
